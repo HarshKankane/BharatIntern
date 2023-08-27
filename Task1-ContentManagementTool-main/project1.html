@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Content Management Tool</title>
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+</head>
+<body>
+    <header>
+        <h1>Content Management Tool</h1>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Elements</h2>
+            <ul>
+                <li><a href="This is text">Text</a></li>
+                <li><a href="india.jpg">Image</a></li>
+                <li><a href="https://youtube.com/shorts/tDjDYY8A1z8?feature=share">Video</a></li>
+                <!-- Add more element options as needed -->
+            </ul>
+        </div>
+        <div class="editor">
+            <h2>Editor</h2>
+            <div id="editor-container">
+                <!-- The editor content will be dynamically added here -->
+				<h1>Content Management Tool</h1>
+
+    <!-- Editor section -->
+    <div class="editor" contenteditable="true" id="editorContent">
+      <!-- Initial content goes here -->
+      <h2>Welcome to the Content Management Tool!</h2>
+      <p>This is an example of an editable content area.</p>
+    </div>
+
+    <!-- Save button -->
+    <button class="save-button" onclick="saveContent()">Save Content</button>
+            </div>
+        </div>
+    </div>
+	
+    <script src="app.js"></script>
+</body>
+</html>
